@@ -14,13 +14,13 @@ pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.press("enter")
 time.sleep(3)
 
-#passo 2- Fazer loginteste@teste.com
+#passo 2- Fazer login
 pyautogui.click(x=811, y=466)
 pyautogui.write("teste@teste.com")
 pyautogui.click(x=762, y=589)
 pyautogui.write("senha")
 pyautogui.click(x=953, y=671)
-#passo 3- Importar base de produtosteste@teste.com
+#passo 3- Importar base de produtos
 
 tabela = pandas.read_csv("produtos.csv")
 print (tabela)
